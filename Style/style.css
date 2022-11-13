@@ -1,0 +1,148 @@
+ol{
+    position: absolute;
+    list-style: none;
+}
+.lies{
+    margin-top: 20px;
+}
+li{
+    background-color: #a3a3a3;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0.5em;
+}
+ol:hover li{
+    display: flex;
+}
+.calculator{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 5px solid silver;
+    border-radius: 9px;
+    left: 500px;
+    top: 100px;
+    background-color: #00e5ff;
+    display: flex;
+}
+.fieldenter{
+    position: absolute;
+    width: 290px;
+}
+button{
+    position: absolute;
+}
+.seven{
+    top:30px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.eight{
+    top:30px;
+    left:40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.nine{
+    top:30px;
+    left:65%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.four{
+    top:100px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.five{
+    top: 100px;
+    left:40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.six{
+    top: 100px;
+    left:65%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.one{
+    top:170px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.two{
+    top:170px;
+    left:40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.three{
+    top:170px;
+    left:65%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.zero{
+    top:240px;
+    left: 40%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.tochka{
+    top:240px;
+    left: 65%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.equiv{
+    top: 240px;
+    left: 80%;
+    font-size: 30px;
+    background-color: #8ABAE0;
+    border: 5px solid #8ABAE0;
+}
+.plus{
+    top:170px;
+    left:80%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.minus{
+    top:100px;
+    left:80%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.umn{
+    top:30px;
+    left:80%;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.del{
+    top:240px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.clear{
+    top:240px;
+    left:70px;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+button:active{
+    background-color: #42f57e;
+    border: 5px solid #42f57e;
+}
